@@ -40,28 +40,28 @@ SetLayer(num){
   global kbd_layer
   global noti_type
   kbd_layer := num
-  if(noti_type = 0){
-    If(num = 0){
-      PopUp("layer 0 (Normal)")
-    } Else If(num = 1){
-      PopUp("layer 1 (Navigation)")
-    } Else If(num = 2){
-      PopUp("layer 2 (Function)")
-    } Else If(num = 3){
-      PopUp("layer 3 (Num pad)")
-    }
-  } Else{
-    If(num = 0){
-      SplashImage, layer0.png
-    } Else If(num = 1){
-      SplashImage, layer1.png
-    } Else If(num = 2){
-      SplashImage, layer2.png
-    } Else If(num = 3){
-      SplashImage, layer3.png
-    }
-    SetTimer, RemoveSplash, -2000
-  }
+  ; if(noti_type = 0){
+  ;   If(num = 0){
+  ;     PopUp("layer 0 (Normal)")
+  ;   } Else If(num = 1){
+  ;     PopUp("layer 1 (Navigation)")
+  ;   } Else If(num = 2){
+  ;     PopUp("layer 2 (Function)")
+  ;   } Else If(num = 3){
+  ;     PopUp("layer 3 (Num pad)")
+  ;   }
+  ; } Else{
+  ;   If(num = 0){
+  ;     SplashImage, layer0.png
+  ;   } Else If(num = 1){
+  ;     SplashImage, layer1.png
+  ;   } Else If(num = 2){
+  ;     SplashImage, layer2.png
+  ;   } Else If(num = 3){
+  ;     SplashImage, layer3.png
+  ;   }
+  ;   SetTimer, RemoveSplash, -2000
+  ; }
 }
 return
 
