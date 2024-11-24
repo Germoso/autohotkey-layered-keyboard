@@ -1,4 +1,4 @@
-﻿; -------------------------
+; -------------------------
 ; Configuración de capas
 ; -------------------------
 
@@ -9,9 +9,9 @@ LayerActive := false
 CapsLock::
     LayerActive := !LayerActive ; Cambia el estado
     if (LayerActive) {
-        TrayTip, Capa ActivUUUOOUOUOUOada, La capa de funciones está activa., 1
+        TrayTip, Capa Activo., 1
     } else {
-        TrayTip, Capa Desactivada, La capa de funciones está desactivada., 1
+        TrayTip, Capa Desactivada., 1
     }
     return
 
